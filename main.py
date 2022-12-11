@@ -5,6 +5,7 @@ print("0- To exit from game\n1-6:u can choose any out of these\nothers numbers a
 print()
 count=0
 def roll_dice(n):
+    ''' check the given number'''
     if n==0:
         print("Thank for visting")
         print("You won",count,"times")
